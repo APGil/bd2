@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bd.css">
+</head>
+<body>
+
+    <div id="surv">
+        <h2>SABER (conocimientos)</h2>
+
+        <select id="drop1">
+            <option value="none">----------</option>
+            <option value="musica" onclick="valor()">Música</option>
+            <option value="lit" onclick="valor()">Literatura</option>
+            <option value="cine" onclick="valor()">Cinema</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <select id="drop2">
+            <option value="none">----------</option>
+            <option value="musica" onclick="valor()">Música</option>
+            <option value="lit" onclick="valor()">Literatura</option>
+            <option value="cine" onclick="valor()">Cinema</option>
+        </select>
+        
+        <input type="submit" value="Enviar" onclick="bubbles()">
+    </div>
+
+    <div id="graph" class="no_graph">
+        <div id="sab1">
+            <div id="op1" class="bb1" >
+                <div id="optxt1">Música</div>
+            </div>
+            <div id="op2" class="bb2">
+                <div id="optxt2">Literatura</div>
+            </div>
+            <div id="op3" class="bb3">
+                <div id="optxt3">Cinema</div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+<script type="application/javascript" src="js/bd.js"></script>
+
+</body>
+</html>
